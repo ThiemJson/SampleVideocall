@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		638B3AA32616C81E00372D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B3AA22616C81E00372D7B /* AppDelegate.swift */; };
-		638B3AA52616C81E00372D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B3AA42616C81E00372D7B /* SceneDelegate.swift */; };
-		638B3AA72616C81E00372D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B3AA62616C81E00372D7B /* ViewController.swift */; };
-		638B3AAA2616C81E00372D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638B3AA82616C81E00372D7B /* Main.storyboard */; };
 		638B3AAC2616C81F00372D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638B3AAB2616C81F00372D7B /* Assets.xcassets */; };
 		638B3AAF2616C81F00372D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638B3AAD2616C81F00372D7B /* LaunchScreen.storyboard */; };
+		638B3AD72616CBDF00372D7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B3AD52616CBDF00372D7B /* HomeViewController.swift */; };
+		638B3AD82616CBDF00372D7B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638B3AD62616CBDF00372D7B /* HomeViewController.xib */; };
+		638B3AE42616DD8200372D7B /* AppID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B3AE32616DD8200372D7B /* AppID.swift */; };
+		C255DAC517F29E2743309D03 /* Pods_videocallagora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9690FC0CD72CE76EE4CD57E /* Pods_videocallagora.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		638B3A9F2616C81E00372D7B /* videocallagora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videocallagora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638B3AA22616C81E00372D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		638B3AA42616C81E00372D7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		638B3AA62616C81E00372D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		638B3AA92616C81E00372D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		638B3AAB2616C81F00372D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638B3AAE2616C81F00372D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638B3AB02616C81F00372D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638B3AD52616CBDF00372D7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		638B3AD62616CBDF00372D7B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		638B3AE32616DD8200372D7B /* AppID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
+		749BE1EB9DA18F727E7C9BEC /* Pods-videocallagora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videocallagora.debug.xcconfig"; path = "Target Support Files/Pods-videocallagora/Pods-videocallagora.debug.xcconfig"; sourceTree = "<group>"; };
+		9195B08E11FB5CA2BC6FBC08 /* Pods-videocallagora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videocallagora.release.xcconfig"; path = "Target Support Files/Pods-videocallagora/Pods-videocallagora.release.xcconfig"; sourceTree = "<group>"; };
+		E9690FC0CD72CE76EE4CD57E /* Pods_videocallagora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_videocallagora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C255DAC517F29E2743309D03 /* Pods_videocallagora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25A71A8CAD6C73D985542141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				749BE1EB9DA18F727E7C9BEC /* Pods-videocallagora.debug.xcconfig */,
+				9195B08E11FB5CA2BC6FBC08 /* Pods-videocallagora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E8F85B2F8BB47A087451FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9690FC0CD72CE76EE4CD57E /* Pods_videocallagora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		638B3A962616C81E00372D7B = {
 			isa = PBXGroup;
 			children = (
 				638B3AA12616C81E00372D7B /* videocallagora */,
 				638B3AA02616C81E00372D7B /* Products */,
+				25A71A8CAD6C73D985542141 /* Pods */,
+				3E8F85B2F8BB47A087451FB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,23 @@
 		638B3AA12616C81E00372D7B /* videocallagora */ = {
 			isa = PBXGroup;
 			children = (
+				638B3AD42616CBCF00372D7B /* view */,
 				638B3AA22616C81E00372D7B /* AppDelegate.swift */,
-				638B3AA42616C81E00372D7B /* SceneDelegate.swift */,
-				638B3AA62616C81E00372D7B /* ViewController.swift */,
-				638B3AA82616C81E00372D7B /* Main.storyboard */,
 				638B3AAB2616C81F00372D7B /* Assets.xcassets */,
 				638B3AAD2616C81F00372D7B /* LaunchScreen.storyboard */,
 				638B3AB02616C81F00372D7B /* Info.plist */,
 			);
 			path = videocallagora;
+			sourceTree = "<group>";
+		};
+		638B3AD42616CBCF00372D7B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				638B3AD52616CBDF00372D7B /* HomeViewController.swift */,
+				638B3AD62616CBDF00372D7B /* HomeViewController.xib */,
+				638B3AE32616DD8200372D7B /* AppID.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 638B3AB32616C81F00372D7B /* Build configuration list for PBXNativeTarget "videocallagora" */;
 			buildPhases = (
+				AD44100CB989E475DBB21766 /* [CP] Check Pods Manifest.lock */,
 				638B3A9B2616C81E00372D7B /* Sources */,
 				638B3A9C2616C81E00372D7B /* Frameworks */,
 				638B3A9D2616C81E00372D7B /* Resources */,
+				2A1A81F7F293039E47E4A2CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +160,68 @@
 			files = (
 				638B3AAF2616C81F00372D7B /* LaunchScreen.storyboard in Resources */,
 				638B3AAC2616C81F00372D7B /* Assets.xcassets in Resources */,
-				638B3AAA2616C81E00372D7B /* Main.storyboard in Resources */,
+				638B3AD82616CBDF00372D7B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A1A81F7F293039E47E4A2CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-videocallagora/Pods-videocallagora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-videocallagora/Pods-videocallagora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-videocallagora/Pods-videocallagora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD44100CB989E475DBB21766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-videocallagora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		638B3A9B2616C81E00372D7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				638B3AA72616C81E00372D7B /* ViewController.swift in Sources */,
+				638B3AE42616DD8200372D7B /* AppID.swift in Sources */,
 				638B3AA32616C81E00372D7B /* AppDelegate.swift in Sources */,
-				638B3AA52616C81E00372D7B /* SceneDelegate.swift in Sources */,
+				638B3AD72616CBDF00372D7B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		638B3AA82616C81E00372D7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				638B3AA92616C81E00372D7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		638B3AAD2616C81F00372D7B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +351,14 @@
 		};
 		638B3AB42616C81F00372D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749BE1EB9DA18F727E7C9BEC /* Pods-videocallagora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7Q5J9K3AS;
 				INFOPLIST_FILE = videocallagora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +372,14 @@
 		};
 		638B3AB52616C81F00372D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9195B08E11FB5CA2BC6FBC08 /* Pods-videocallagora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A7Q5J9K3AS;
 				INFOPLIST_FILE = videocallagora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
